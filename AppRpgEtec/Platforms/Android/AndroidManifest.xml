@@ -3,7 +3,7 @@
 	<application android:allowBackup="true"
 				 android:supportsRtl="true"
 				 android:icon="@mipmap/has_logo_transparente"
-				 android:roundIcon="@mipmap/has_logo_transparente_round">
+				 android:roundIcon="">
 
 		<meta-data android:name="com.google.android.geo.API_KEY"
 				   android:value="AIzaSyAXXxnNxJkopczqpKT8_M97hmwI0YHrWfI">
