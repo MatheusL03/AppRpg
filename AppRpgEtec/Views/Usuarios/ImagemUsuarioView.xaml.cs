@@ -1,3 +1,7 @@
+using Azure.Storage.Blobs;
+using Microsoft.Maui.Storage;
+using System.ComponentModel;
+
 namespace AppRpgEtec.Views.Usuarios;
 
 public partial class ImagemUsuarioView : ContentPage
@@ -11,4 +15,5 @@ public partial class ImagemUsuarioView : ContentPage
 		Title = "Imagem do Usuário";
 		BindingContext = viewModel;
 	}
+
 }
