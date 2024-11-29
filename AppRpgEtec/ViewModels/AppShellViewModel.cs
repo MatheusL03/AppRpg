@@ -12,8 +12,8 @@ namespace AppRpgEtec.ViewModels
 {
     public class AppShellViewModel : BaseViewModel
     {
-       // private static string conexaoAzureStorage = ""; //Cole a chave de acesso da conta de armazenamento
-       // private static string container = "arquivos";
+        private static string conexaoAzureStorage = ""; //Cole a chave de acesso da conta de armazenamento
+        private static string container = "arquivos";
 
         private UsuarioService uService;
         public AppShellViewModel()

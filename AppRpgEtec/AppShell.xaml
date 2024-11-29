@@ -57,7 +57,7 @@
 
         <Tab Title="info" Icon="info.svg">
             <ShellContent
-              Title="Usuario" Route="usuario"  ContentTemplate="{DataTemplate local:viewUsuarios:ImagemUsuarioView}"/>
+              Title="Usuario" Route="usuario" ContentTemplate="{DataTemplate viewsUsuarios:ImagemUsuarioView}"/>
             
             <ShellContent
               Title="Sobre" Route="sobre"  ContentTemplate="{DataTemplate local:AboutView}"/>
